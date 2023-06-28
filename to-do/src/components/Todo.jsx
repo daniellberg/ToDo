@@ -3,16 +3,16 @@ import React from 'react'
 const Todo = ({ todo }) => {
   return (
     <div className="todo">
-              <div className="content">
+            <div className="content">
                 <p>{todo.text}</p>
                 <p className="category">
-                  ({todo.category})
+                    ({todo.category})
                 </p>
-                <div className='buttons'>
-                  <button className='complete'>Completar</button>
-                  <button className='remove'>X</button>
+            </div>
+            <div className="buttons">
+                <button className='complete'>Completar</button>
+                <button className='remove'>X</button>
                 </div>
-              </div>
             </div>
   )
 }
